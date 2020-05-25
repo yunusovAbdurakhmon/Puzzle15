@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.yunusov.puzzle15.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score"
+                android:textColor="@color/colorText"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_76"
+                android:textColor="@color/colorText"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textColor="@color/colorText"
+                android:textSize="18sp" />
+
+            <Chronometer
+                android:id="@+id/textTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="07:12"
+                android:textColor="@color/colorText"
+                android:textSize="32sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/bt1"
+                style="@style/ButtonStyle"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/bt2"
+                style="@style/ButtonStyle"
+                android:layout_toRightOf="@+id/bt1"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/bt3"
+                style="@style/ButtonStyle"
+                android:layout_toRightOf="@+id/bt2"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/bt4"
+                style="@style/ButtonStyle"
+                android:layout_toRightOf="@+id/bt3"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/bt5"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/bt1"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/bt6"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/bt1"
+                android:layout_toRightOf="@id/bt5"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/bt7"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/bt1"
+                android:layout_toRightOf="@id/bt6"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/bt8"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/bt1"
+                android:layout_toRightOf="@id/bt7"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/bt9"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/bt5"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/bt10"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/bt5"
+                android:layout_toRightOf="@id/bt1"
+                android:text="10" />
+
+            <Button
+                android:id="@+id/bt11"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/bt5"
+                android:layout_toRightOf="@id/bt2"
+                android:text="10" />
+
+            <Button
+                android:id="@+id/bt12"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/bt5"
+                android:layout_toRightOf="@id/bt3"
+                android:text="10" />
+
+            <Button
+                android:id="@+id/bt13"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/bt9"
+                android:text="10" />
+
+            <Button
+                android:id="@+id/bt14"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/bt9"
+                android:layout_toRightOf="@id/bt1"
+                android:text="10" />
+
+            <Button
+                android:id="@+id/bt15"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/bt9"
+                android:layout_toRightOf="@id/bt2"
+                android:text="15" />
+
+            <Button
+                android:id="@+id/bt16"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/bt9"
+                android:layout_toRightOf="@id/bt3"
+                android:background="@color/colorEmpty"
+                android:text="" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="backToHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button"
+            android:text="Home"
+            android:textColor="@color/colorText" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:onClick="refresh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button"
+            android:text="Restart"
+            android:textColor="@color/colorText" />
+    </LinearLayout>
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/layoutWin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B7000000"
+    android:gravity="center"
+    android:clickable="true"
+    android:visibility="invisible"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/winText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You win in 03:15 min!"
+        android:textColor="#fff"
+        android:textSize="48sp" />
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="16dp" />
+
+    <Button
+        android:onClick="refreshToWinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_win"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="Restart"
+        android:textColor="#fff" />
+
+</LinearLayout>
+
+
+</FrameLayout>

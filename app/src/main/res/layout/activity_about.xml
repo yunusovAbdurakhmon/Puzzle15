@@ -1,0 +1,135 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_bright"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:gravity="top|center_vertical|center_horizontal|center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:textSize="40dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/about_puzzle_15"/>
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_15_1878"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how_to_play_puzzle"
+            android:textSize="40dp"
+            android:textColor="#fff"
+            android:layout_margin="5dp"
+            />
+
+        <!--        -->
+        <TextView
+            style="@style/stepText"
+            android:text="@string/step1" />
+
+        <ImageView
+            android:background="@drawable/h1"
+            style="@style/helpImages" />
+
+        <!--        -->
+        <TextView
+            style="@style/stepText"
+            android:text="@string/step2" />
+
+        <ImageView
+            android:background="@drawable/h2"
+            style="@style/helpImages" />
+
+        <!--        -->
+        <TextView
+            style="@style/stepText"
+            android:text="@string/step3" />
+        <ImageView
+            android:background="@drawable/h3"
+            style="@style/helpImages" />
+
+        <!--        -->
+        <TextView
+            style="@style/stepText"
+            android:text="@string/step4" />
+        <ImageView
+            android:background="@drawable/h4"
+            style="@style/helpImages" />
+        <!--        -->
+
+        <TextView
+            style="@style/stepText"
+            android:text="@string/step5" />
+        <ImageView
+            android:background="@drawable/h5"
+            style="@style/helpImages" />
+        <!--        -->
+
+        <TextView
+            style="@style/stepText"
+            android:text="@string/step6" />
+        <ImageView
+            android:background="@drawable/h6"
+            style="@style/helpImages" />
+
+
+        <!--        -->
+        <TextView
+            style="@style/stepText"
+            android:text="@string/step7" />
+        <ImageView
+            android:background="@drawable/h7"
+            style="@style/helpImages" />
+
+
+        <!--        -->
+        <TextView
+            style="@style/stepText"
+            android:text="@string/step8" />
+        <ImageView
+            android:background="@drawable/h8"
+            style="@style/helpImages" />
+
+
+        <!--        -->
+        <TextView
+            style="@style/stepText"
+            android:text="@string/step9" />
+        <ImageView
+            android:background="@drawable/h9"
+            style="@style/helpImages" />
+
+
+        <!--        -->
+        <TextView
+            style="@style/stepText"
+            android:text="@string/step10" />
+        <ImageView
+            android:background="@drawable/h10"
+            style="@style/helpImages" />
+
+
+        <!--        -->
+        <TextView
+            style="@style/stepText"
+            android:text="@string/step11" />
+        <ImageView
+            android:background="@drawable/h11"
+            style="@style/helpImages" />
+
+
+
+    </LinearLayout>
+</ScrollView>

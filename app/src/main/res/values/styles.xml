@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+    <style name="ButtonPlay">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#28b7e1</item>
+        <item name="android:textColor">#ffe135</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="images">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="helpImages">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_margin">5dp</item>
+
+    </style>
+    <style name="stepText">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="aboutButton">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:textColor">#CB000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+
+
+
+</resources>

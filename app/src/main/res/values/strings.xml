@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Puzzle15</string>
+    <string name="_15_1878">"Puzzle 15 is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. \n
+        The puzzle was "invented" by Noyes Palmer Chapman, a postmaster in Canastota, New York. \n
+        The game became a craze in the U.S. in February 1880, Canada in March, Europe in April, but that craze had dissipated by July. Apparently, the puzzle was not introduced to Japan until 1889. \n
+        Bobby Fischer was an expert at solving the 15-Puzzle. He had been timed to be able to solve it within 25 seconds; Fischer demonstrated this on November 8, 1972, on The Tonight Show Starring Johnny"</string>
+
+    <string name="step1">"Place 1 and 2 on their original places"</string>
+    <string name="step2">"Place 4 on the right side of 2. \n Place 3 under 4"</string>
+    <string name="step3">"Make an empty space on the right side of 4"</string>
+    <string name="step4">"Place 5 and 6 on their original places"</string>
+    <string name="step5">"Place 8 on the right side of 6. \n Place 7 under 8"</string>
+    <string name="step6">"Make an empty space on the right side of 8"</string>
+    <string name="step7">"Place 9 on the right side of 13"</string>
+    <string name="step8">"Make an empty space under 13"</string>
+    <string name="step9">"Place 10 on the right side of 14"</string>
+    <string name="step10">"Make an empty space under14"</string>
+    <string name="step11">"Move around the blocks 11, 12, and 15 to put them to their original places. \n  If they don't go to their original places, do method 3 again by mixing only the last two"</string>
+    <string name="about_puzzle_15">About PUZZLE 15+</string>
+    <string name="how_to_play_puzzle">How to play Puzzle</string>
+    <string name="play">Play</string>
+    <string name="info">Info</string>
+    <string name="exit">Exit</string>
+    <string name="score">Score</string>
+    <string name="_76">76</string>
+
+</resources>
